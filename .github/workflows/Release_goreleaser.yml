@@ -1,6 +1,7 @@
 name: Release ikuai-bypass
 
 on:
+  workflow_dispatch:
   push:
     branches: 
       - master
