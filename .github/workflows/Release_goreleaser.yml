@@ -1,10 +1,9 @@
 name: Release ikuai-bypass
 
 on:
-  workflow_dispatch:
   push:
-    branches: 
-      - main
+    tags:
+      - 'v*'
 
 jobs:
 
